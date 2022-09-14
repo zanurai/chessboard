@@ -1,0 +1,56 @@
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.next {
+    margin: auto;
+    width: fit-content;
+    border: 5px solid green;
+}
+
+.chess {
+    margin: auto;
+    border: 6px solid black;
+    background-color: yellow;
+}
+
+.border {
+    margin: auto;
+    width: fit-content;
+    border: 4px solid red;
+}
+
+.chessboard {
+    margin: auto;
+    width: fit-content;
+    border: 10px dashed aqua;
+}
+
+.box {
+    width: 70px;
+    height: 70px;
+    border: 1px solid black;
+}
+
+
+.black {
+    background-color: black;
+}
+
+.white {
+    background-color: white;
+}
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+h1 {
+    text-align: center;
+}
